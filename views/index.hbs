@@ -1,0 +1,9 @@
+<h1>Ma todo list</h1>
+
+<ul>
+{{# each items as |item| }}
+    {{#if item.name}}
+        <li>{{item.name}}</li>
+    {{/if}}
+{{/each}}
+</ul>
